@@ -5,11 +5,15 @@ import { Auth } from '@/@types/auth';
 import { Login } from '@/@types/login';
 import { Message } from '@/@types/message';
 
-let onSessionExpired: (() => void) | null = null;
+import * as authMock from './authMock';
+import { notifySessionExpired } from './sessionExpired';
 
-export function registerSessionExpiredHandler(handler: () => void) {
-    onSessionExpired = handler;
-}
+export { registerSessionExpiredHandler } from './sessionExpired';
+
+// Enquanto a integração real não estiver disponível, o mock definido em
+// ./mocks/authMock.json responde no lugar do backend. Para voltar a usar o
+// backend real, basta definir "enabled": false naquele arquivo.
+const USE_MOCK = authMock.MOCK_ENABLED;
 
 async function handleResponse<T>(response: Response): Promise<T> {
     if (!response.ok) {
@@ -21,13 +25,17 @@ async function handleResponse<T>(response: Response): Promise<T> {
 
 async function handleAuthenticatedResponse<T>(response: Response): Promise<T> {
     if (response.status === 401 || response.status === 403) {
-        onSessionExpired?.();
+        notifySessionExpired();
     }
 
     return handleResponse<T>(response);
 }
 
 export async function createUser(payload: User): Promise<Auth> {
+    if (USE_MOCK) {
+        return authMock.createUser(payload);
+    }
+
     const response = await fetch(`${API_URL}/create`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -39,6 +47,10 @@ export async function createUser(payload: User): Promise<Auth> {
 }
 
 export async function login(payload: Login): Promise<Auth> {
+    if (USE_MOCK) {
+        return authMock.login(payload);
+    }
+
     const response = await fetch(`${API_URL}/auth`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -50,6 +62,10 @@ export async function login(payload: Login): Promise<Auth> {
 }
 
 export async function logout(): Promise<void> {
+    if (USE_MOCK) {
+        return authMock.logout();
+    }
+
     const response = await fetch(`${API_URL}/logout`, {
         method: 'POST',
         credentials: 'include',
@@ -61,6 +77,10 @@ export async function logout(): Promise<void> {
 }
 
 export async function getMessage(): Promise<Message> {
+    if (USE_MOCK) {
+        return authMock.getMessage();
+    }
+
     const response = await fetch(`${API_URL}/message`, {
         method: 'GET',
         credentials: 'include',
@@ -70,6 +90,10 @@ export async function getMessage(): Promise<Message> {
 }
 
 export async function getMessageAdmin(): Promise<Message> {
+    if (USE_MOCK) {
+        return authMock.getMessageAdmin();
+    }
+
     const response = await fetch(`${API_URL}/message/admin`, {
         method: 'GET',
         credentials: 'include',

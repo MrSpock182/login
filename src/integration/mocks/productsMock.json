@@ -1,0 +1,896 @@
+{
+  "enabled": true,
+  "latencyMs": 450,
+  "pageSize": 10,
+  "products": [
+    {
+      "id": "1",
+      "name": "Apple AirPods (3ª geração)",
+      "category": "Áudio",
+      "price": 1499,
+      "rating": 4.7,
+      "ratingCount": 512,
+      "stock": 40,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/2.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/3.webp"
+      ],
+      "description": "Fones sem fio com áudio espacial, resistência a suor e água (IPX4) e estojo com carregamento MagSafe. Até 30h de bateria com o estojo.",
+      "reviews": [
+        {
+          "id": "r1-1",
+          "author": "Ana Beatriz",
+          "rating": 5,
+          "comment": "Superou minhas expectativas, chegou antes do prazo e muito bem embalado.",
+          "date": "2026-01-03",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/2.webp"
+          ]
+        },
+        {
+          "id": "r1-2",
+          "author": "João Pedro",
+          "rating": 3,
+          "comment": "Atende bem, porém o manual em português é bem fraco.",
+          "date": "2026-02-04",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/3.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "AirPods Max",
+      "category": "Áudio",
+      "price": 4999,
+      "rating": 4.6,
+      "ratingCount": 188,
+      "stock": 4,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp"
+      ],
+      "description": "Fone over-ear com cancelamento ativo de ruído, áudio espacial com rastreamento dinâmico e estrutura em alumínio. Coxins em espuma acústica.",
+      "reviews": [
+        {
+          "id": "r2-1",
+          "author": "Carlos Mendes",
+          "rating": 5,
+          "comment": "Ótimo custo-benefício, uso todos os dias e não tenho do que reclamar.",
+          "date": "2026-02-05",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp"
+          ]
+        },
+        {
+          "id": "r2-2",
+          "author": "Marina Souza",
+          "rating": 3,
+          "comment": "Cumpre o que promete, só achei o preço um pouco alto.",
+          "date": "2026-03-06",
+          "photos": []
+        },
+        {
+          "id": "r2-3",
+          "author": "Lucas Almeida",
+          "rating": 5,
+          "comment": "Funciona perfeitamente, configuração simples e rápida.",
+          "date": "2026-04-07",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Beats Flex",
+      "category": "Áudio",
+      "price": 499,
+      "rating": 4.3,
+      "ratingCount": 274,
+      "stock": 55,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp"
+      ],
+      "description": "Fone intra-auricular sem fio com chip Apple W1, até 12h de bateria e conectores magnéticos com pausa automática.",
+      "reviews": [
+        {
+          "id": "r3-1",
+          "author": "Fernanda Lima",
+          "rating": 5,
+          "comment": "Qualidade de acabamento excelente, recomendo sem medo.",
+          "date": "2026-03-07",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp"
+          ]
+        },
+        {
+          "id": "r3-2",
+          "author": "Rafael Oliveira",
+          "rating": 3,
+          "comment": "Funciona bem, mas veio com um leve arranhão na caixa.",
+          "date": "2026-04-08",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp"
+          ]
+        },
+        {
+          "id": "r3-3",
+          "author": "Juliana Costa",
+          "rating": 5,
+          "comment": "Comprei em promoção e valeu cada centavo.",
+          "date": "2026-05-09",
+          "photos": []
+        },
+        {
+          "id": "r3-4",
+          "author": "Diego Nunes",
+          "rating": 4,
+          "comment": "Já é o segundo que compro, produto confiável.",
+          "date": "2026-06-10",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Apple Watch Series 4 (GPS)",
+      "category": "Wearables",
+      "price": 2299,
+      "rating": 4.4,
+      "ratingCount": 302,
+      "stock": 22,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/2.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/3.webp"
+      ],
+      "description": "Tela Retina LTPO OLED, sensor de frequência cardíaca, detecção de queda e resistência à água até 50m. Caixa de 44mm.",
+      "reviews": [
+        {
+          "id": "r4-1",
+          "author": "João Pedro",
+          "rating": 5,
+          "comment": "Funciona perfeitamente, configuração simples e rápida.",
+          "date": "2026-04-09",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/2.webp"
+          ]
+        },
+        {
+          "id": "r4-2",
+          "author": "Patrícia Gomes",
+          "rating": 3,
+          "comment": "Bom produto, mas a bateria dura menos do que o anunciado.",
+          "date": "2026-05-10",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Amazon Echo Plus",
+      "category": "Casa Inteligente",
+      "price": 649,
+      "rating": 4.2,
+      "ratingCount": 289,
+      "stock": 48,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/2.webp"
+      ],
+      "description": "Alto-falante inteligente com hub Zigbee integrado, som premium com graves reforçados e assistente por voz.",
+      "reviews": [
+        {
+          "id": "r5-1",
+          "author": "Marina Souza",
+          "rating": 5,
+          "comment": "Comprei em promoção e valeu cada centavo.",
+          "date": "2026-05-11",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/2.webp"
+          ]
+        },
+        {
+          "id": "r5-2",
+          "author": "Lucas Almeida",
+          "rating": 3,
+          "comment": "Atende bem, porém o manual em português é bem fraco.",
+          "date": "2026-06-12",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp"
+          ]
+        },
+        {
+          "id": "r5-3",
+          "author": "Camila Ferreira",
+          "rating": 2,
+          "comment": "Esperava mais pela marca, o meu apresentou defeito em duas semanas.",
+          "date": "2026-07-13",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Carregador MagSafe para iPhone",
+      "category": "Acessórios",
+      "price": 279,
+      "rating": 4.5,
+      "ratingCount": 421,
+      "stock": 120,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/2.webp"
+      ],
+      "description": "Carregamento sem fio de até 15W com alinhamento magnético. Compatível com iPhone 12 e superiores e com fones AirPods com estojo Qi.",
+      "reviews": [
+        {
+          "id": "r6-1",
+          "author": "Rafael Oliveira",
+          "rating": 5,
+          "comment": "Já é o segundo que compro, produto confiável.",
+          "date": "2026-06-13",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/2.webp"
+          ]
+        },
+        {
+          "id": "r6-2",
+          "author": "Juliana Costa",
+          "rating": 3,
+          "comment": "Cumpre o que promete, só achei o preço um pouco alto.",
+          "date": "2026-07-14",
+          "photos": []
+        },
+        {
+          "id": "r6-3",
+          "author": "Diego Nunes",
+          "rating": 5,
+          "comment": "Ótimo custo-benefício, uso todos os dias e não tenho do que reclamar.",
+          "date": "2026-08-15",
+          "photos": []
+        },
+        {
+          "id": "r6-4",
+          "author": "Fernanda Lima",
+          "rating": 4,
+          "comment": "Qualidade de acabamento excelente, recomendo sem medo.",
+          "date": "2026-01-16",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Capa de Silicone com MagSafe",
+      "category": "Acessórios",
+      "price": 349,
+      "rating": 4.4,
+      "ratingCount": 158,
+      "stock": 65,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/1.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/2.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/3.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/4.webp"
+      ],
+      "description": "Capa de silicone com acabamento macio, forro em microfibra e ímãs alinhados para acessórios MagSafe. Cor ameixa.",
+      "reviews": [
+        {
+          "id": "r7-1",
+          "author": "Patrícia Gomes",
+          "rating": 5,
+          "comment": "Superou minhas expectativas, chegou antes do prazo e muito bem embalado.",
+          "date": "2026-07-15",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/2.webp"
+          ]
+        },
+        {
+          "id": "r7-2",
+          "author": "Bruno Rocha",
+          "rating": 3,
+          "comment": "Funciona bem, mas veio com um leve arranhão na caixa.",
+          "date": "2026-08-16",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/3.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "MacBook Pro 14\"",
+      "category": "Notebooks",
+      "price": 16999,
+      "rating": 4.8,
+      "ratingCount": 96,
+      "stock": 7,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/2.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/3.webp"
+      ],
+      "description": "Chip da série M, tela Liquid Retina XDR de 14,2\", 16GB de memória unificada, SSD de 512GB e até 17h de bateria.",
+      "reviews": [
+        {
+          "id": "r8-1",
+          "author": "Lucas Almeida",
+          "rating": 5,
+          "comment": "Ótimo custo-benefício, uso todos os dias e não tenho do que reclamar.",
+          "date": "2026-08-17",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/2.webp"
+          ]
+        },
+        {
+          "id": "r8-2",
+          "author": "Camila Ferreira",
+          "rating": 3,
+          "comment": "Bom produto, mas a bateria dura menos do que o anunciado.",
+          "date": "2026-01-18",
+          "photos": []
+        },
+        {
+          "id": "r8-3",
+          "author": "Carlos Mendes",
+          "rating": 5,
+          "comment": "Funciona perfeitamente, configuração simples e rápida.",
+          "date": "2026-02-19",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Asus Zenbook Pro Duo",
+      "category": "Notebooks",
+      "price": 12499,
+      "rating": 4.5,
+      "ratingCount": 74,
+      "stock": 12,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/2.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/3.webp"
+      ],
+      "description": "Notebook criador com tela OLED 4K, segunda tela ScreenPad Plus, Intel Core i7 e placa dedicada. 32GB RAM.",
+      "reviews": [
+        {
+          "id": "r9-1",
+          "author": "Juliana Costa",
+          "rating": 5,
+          "comment": "Qualidade de acabamento excelente, recomendo sem medo.",
+          "date": "2026-01-19",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/2.webp"
+          ]
+        },
+        {
+          "id": "r9-2",
+          "author": "Diego Nunes",
+          "rating": 3,
+          "comment": "Atende bem, porém o manual em português é bem fraco.",
+          "date": "2026-02-20",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/3.webp"
+          ]
+        },
+        {
+          "id": "r9-3",
+          "author": "Fernanda Lima",
+          "rating": 2,
+          "comment": "Esperava mais pela marca, o meu apresentou defeito em duas semanas.",
+          "date": "2026-03-21",
+          "photos": []
+        },
+        {
+          "id": "r9-4",
+          "author": "Rafael Oliveira",
+          "rating": 3,
+          "comment": "Demorou para chegar e o suporte demorou a responder.",
+          "date": "2026-04-22",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Huawei MateBook X Pro",
+      "category": "Notebooks",
+      "price": 9299,
+      "rating": 4.4,
+      "ratingCount": 63,
+      "stock": 15,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/2.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/3.webp"
+      ],
+      "description": "Ultrabook com tela 3K LTPS sensível ao toque, corpo em liga de magnésio com 1,33kg e webcam retrátil.",
+      "reviews": [
+        {
+          "id": "r10-1",
+          "author": "Bruno Rocha",
+          "rating": 5,
+          "comment": "Funciona perfeitamente, configuração simples e rápida.",
+          "date": "2026-02-21",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/2.webp"
+          ]
+        },
+        {
+          "id": "r10-2",
+          "author": "Ana Beatriz",
+          "rating": 3,
+          "comment": "Cumpre o que promete, só achei o preço um pouco alto.",
+          "date": "2026-03-22",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Lenovo Yoga 920",
+      "category": "Notebooks",
+      "price": 7499,
+      "rating": 4.3,
+      "ratingCount": 118,
+      "stock": 20,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/2.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/3.webp"
+      ],
+      "description": "Conversível 2 em 1 com dobradiça de 360°, tela Full HD sensível ao toque, caneta ativa inclusa e leitor de digital.",
+      "reviews": [
+        {
+          "id": "r11-1",
+          "author": "Camila Ferreira",
+          "rating": 5,
+          "comment": "Comprei em promoção e valeu cada centavo.",
+          "date": "2026-03-23",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/2.webp"
+          ]
+        },
+        {
+          "id": "r11-2",
+          "author": "Carlos Mendes",
+          "rating": 3,
+          "comment": "Funciona bem, mas veio com um leve arranhão na caixa.",
+          "date": "2026-04-24",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/3.webp"
+          ]
+        },
+        {
+          "id": "r11-3",
+          "author": "Marina Souza",
+          "rating": 5,
+          "comment": "Superou minhas expectativas, chegou antes do prazo e muito bem embalado.",
+          "date": "2026-05-25",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Dell XPS 13 9300",
+      "category": "Notebooks",
+      "price": 8999,
+      "rating": 4.6,
+      "ratingCount": 141,
+      "stock": 18,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/2.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/3.webp"
+      ],
+      "description": "Tela InfinityEdge de 13,4\" com bordas mínimas, Intel Core i7 de 10ª geração, 16GB RAM e chassi em alumínio usinado.",
+      "reviews": [
+        {
+          "id": "r12-1",
+          "author": "Diego Nunes",
+          "rating": 5,
+          "comment": "Já é o segundo que compro, produto confiável.",
+          "date": "2026-04-25",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/2.webp"
+          ]
+        },
+        {
+          "id": "r12-2",
+          "author": "Fernanda Lima",
+          "rating": 3,
+          "comment": "Bom produto, mas a bateria dura menos do que o anunciado.",
+          "date": "2026-05-26",
+          "photos": []
+        },
+        {
+          "id": "r12-3",
+          "author": "Rafael Oliveira",
+          "rating": 5,
+          "comment": "Ótimo custo-benefício, uso todos os dias e não tenho do que reclamar.",
+          "date": "2026-06-03",
+          "photos": []
+        },
+        {
+          "id": "r12-4",
+          "author": "Juliana Costa",
+          "rating": 4,
+          "comment": "Qualidade de acabamento excelente, recomendo sem medo.",
+          "date": "2026-07-04",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "iPhone 13 Pro",
+      "category": "Smartphones",
+      "price": 7999,
+      "rating": 4.7,
+      "ratingCount": 540,
+      "stock": 26,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/3.webp"
+      ],
+      "description": "Tela Super Retina XDR de 6,1\" com ProMotion, sistema de câmera Pro tripla, chip A15 Bionic e vídeo em Dolby Vision 4K.",
+      "reviews": [
+        {
+          "id": "r13-1",
+          "author": "Ana Beatriz",
+          "rating": 5,
+          "comment": "Superou minhas expectativas, chegou antes do prazo e muito bem embalado.",
+          "date": "2026-05-03",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/2.webp"
+          ]
+        },
+        {
+          "id": "r13-2",
+          "author": "João Pedro",
+          "rating": 3,
+          "comment": "Atende bem, porém o manual em português é bem fraco.",
+          "date": "2026-06-04",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/3.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "iPhone X",
+      "category": "Smartphones",
+      "price": 2799,
+      "rating": 4.2,
+      "ratingCount": 388,
+      "stock": 5,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/3.webp"
+      ],
+      "description": "Tela Super Retina OLED de 5,8\", Face ID, câmera dupla de 12MP com estabilização óptica e vidro nas duas faces.",
+      "reviews": [
+        {
+          "id": "r14-1",
+          "author": "Carlos Mendes",
+          "rating": 5,
+          "comment": "Ótimo custo-benefício, uso todos os dias e não tenho do que reclamar.",
+          "date": "2026-06-05",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/2.webp"
+          ]
+        },
+        {
+          "id": "r14-2",
+          "author": "Marina Souza",
+          "rating": 3,
+          "comment": "Cumpre o que promete, só achei o preço um pouco alto.",
+          "date": "2026-07-06",
+          "photos": []
+        },
+        {
+          "id": "r14-3",
+          "author": "Lucas Almeida",
+          "rating": 5,
+          "comment": "Funciona perfeitamente, configuração simples e rápida.",
+          "date": "2026-08-07",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Samsung Galaxy S10",
+      "category": "Smartphones",
+      "price": 3499,
+      "rating": 4.5,
+      "ratingCount": 476,
+      "stock": 30,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/3.webp"
+      ],
+      "description": "Tela Dynamic AMOLED de 6,1\", câmera tripla com ultrawide, leitor de digital ultrassônico na tela e carregamento sem fio reverso.",
+      "reviews": [
+        {
+          "id": "r15-1",
+          "author": "Fernanda Lima",
+          "rating": 5,
+          "comment": "Qualidade de acabamento excelente, recomendo sem medo.",
+          "date": "2026-07-07",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/2.webp"
+          ]
+        },
+        {
+          "id": "r15-2",
+          "author": "Rafael Oliveira",
+          "rating": 3,
+          "comment": "Funciona bem, mas veio com um leve arranhão na caixa.",
+          "date": "2026-08-08",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/3.webp"
+          ]
+        },
+        {
+          "id": "r15-3",
+          "author": "Juliana Costa",
+          "rating": 5,
+          "comment": "Comprei em promoção e valeu cada centavo.",
+          "date": "2026-01-09",
+          "photos": []
+        },
+        {
+          "id": "r15-4",
+          "author": "Diego Nunes",
+          "rating": 4,
+          "comment": "Já é o segundo que compro, produto confiável.",
+          "date": "2026-02-10",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Samsung Galaxy S7",
+      "category": "Smartphones",
+      "price": 1299,
+      "rating": 4.1,
+      "ratingCount": 205,
+      "stock": 3,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/3.webp"
+      ],
+      "description": "Tela Quad HD Super AMOLED de 5,1\", resistência à água IP68, câmera Dual Pixel de 12MP e carregamento rápido.",
+      "reviews": [
+        {
+          "id": "r16-1",
+          "author": "João Pedro",
+          "rating": 5,
+          "comment": "Funciona perfeitamente, configuração simples e rápida.",
+          "date": "2026-08-09",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/2.webp"
+          ]
+        },
+        {
+          "id": "r16-2",
+          "author": "Patrícia Gomes",
+          "rating": 3,
+          "comment": "Bom produto, mas a bateria dura menos do que o anunciado.",
+          "date": "2026-01-10",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Oppo F19 Pro Plus",
+      "category": "Smartphones",
+      "price": 2199,
+      "rating": 4.3,
+      "ratingCount": 167,
+      "stock": 25,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/3.webp"
+      ],
+      "description": "Tela AMOLED de 6,43\", carregamento SuperVOOC de 50W, câmera quádrupla de 48MP e apenas 7,8mm de espessura.",
+      "reviews": [
+        {
+          "id": "r17-1",
+          "author": "Marina Souza",
+          "rating": 5,
+          "comment": "Comprei em promoção e valeu cada centavo.",
+          "date": "2026-01-11",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/2.webp"
+          ]
+        },
+        {
+          "id": "r17-2",
+          "author": "Lucas Almeida",
+          "rating": 3,
+          "comment": "Atende bem, porém o manual em português é bem fraco.",
+          "date": "2026-02-12",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/3.webp"
+          ]
+        },
+        {
+          "id": "r17-3",
+          "author": "Camila Ferreira",
+          "rating": 2,
+          "comment": "Esperava mais pela marca, o meu apresentou defeito em duas semanas.",
+          "date": "2026-03-13",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Realme C35",
+      "category": "Smartphones",
+      "price": 1099,
+      "rating": 4,
+      "ratingCount": 143,
+      "stock": 50,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/3.webp"
+      ],
+      "description": "Tela Full HD+ de 6,6\", câmera principal de 50MP, bateria de 5000mAh e design plano com acabamento em vidro.",
+      "reviews": [
+        {
+          "id": "r18-1",
+          "author": "Rafael Oliveira",
+          "rating": 5,
+          "comment": "Já é o segundo que compro, produto confiável.",
+          "date": "2026-02-13",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/2.webp"
+          ]
+        },
+        {
+          "id": "r18-2",
+          "author": "Juliana Costa",
+          "rating": 3,
+          "comment": "Cumpre o que promete, só achei o preço um pouco alto.",
+          "date": "2026-03-14",
+          "photos": []
+        },
+        {
+          "id": "r18-3",
+          "author": "Diego Nunes",
+          "rating": 5,
+          "comment": "Ótimo custo-benefício, uso todos os dias e não tenho do que reclamar.",
+          "date": "2026-04-15",
+          "photos": []
+        },
+        {
+          "id": "r18-4",
+          "author": "Fernanda Lima",
+          "rating": 4,
+          "comment": "Qualidade de acabamento excelente, recomendo sem medo.",
+          "date": "2026-05-16",
+          "photos": []
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "iPad Mini (2021)",
+      "category": "Tablets",
+      "price": 4299,
+      "rating": 4.7,
+      "ratingCount": 231,
+      "stock": 16,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp",
+        "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/2.webp",
+        "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/3.webp",
+        "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/4.webp"
+      ],
+      "description": "Tela Liquid Retina de 8,3\", chip A15 Bionic, compatível com Apple Pencil de 2ª geração e USB-C. Cor estelar.",
+      "reviews": [
+        {
+          "id": "r19-1",
+          "author": "Patrícia Gomes",
+          "rating": 5,
+          "comment": "Superou minhas expectativas, chegou antes do prazo e muito bem embalado.",
+          "date": "2026-03-15",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/2.webp"
+          ]
+        },
+        {
+          "id": "r19-2",
+          "author": "Bruno Rocha",
+          "rating": 3,
+          "comment": "Funciona bem, mas veio com um leve arranhão na caixa.",
+          "date": "2026-04-16",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/3.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Samsung Galaxy Tab S8+",
+      "category": "Tablets",
+      "price": 5999,
+      "rating": 4.6,
+      "ratingCount": 154,
+      "stock": 14,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/thumbnail.webp",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
+        "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/2.webp",
+        "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/3.webp",
+        "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/4.webp"
+      ],
+      "description": "Tela Super AMOLED de 12,4\", S Pen inclusa com baixa latência, quatro alto-falantes AKG e bateria de 10.090mAh.",
+      "reviews": [
+        {
+          "id": "r20-1",
+          "author": "Lucas Almeida",
+          "rating": 5,
+          "comment": "Ótimo custo-benefício, uso todos os dias e não tenho do que reclamar.",
+          "date": "2026-04-17",
+          "photos": [
+            "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/2.webp"
+          ]
+        },
+        {
+          "id": "r20-2",
+          "author": "Camila Ferreira",
+          "rating": 3,
+          "comment": "Bom produto, mas a bateria dura menos do que o anunciado.",
+          "date": "2026-05-18",
+          "photos": []
+        },
+        {
+          "id": "r20-3",
+          "author": "Carlos Mendes",
+          "rating": 5,
+          "comment": "Funciona perfeitamente, configuração simples e rápida.",
+          "date": "2026-06-19",
+          "photos": []
+        }
+      ]
+    }
+  ]
+}
