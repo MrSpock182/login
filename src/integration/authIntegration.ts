@@ -1,4 +1,4 @@
-export const API_URL = 'http://localhost:8082/fatec/login/v1';
+export const API_URL = 'http://192.168.18.148:8082/fatec/login/v1';
 
 import { User } from '@/@types/user';
 import { Auth } from '@/@types/auth';

@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 import { Colors } from '@/constants/colors';
 
 export const styles = StyleSheet.create({
@@ -9,11 +9,18 @@ export const styles = StyleSheet.create({
         borderColor: Colors.whiteAlpha['12'],
         backgroundColor: Colors.whiteAlpha['05'],
         overflow: 'hidden',
-        shadowColor: Colors.black,
-        shadowOffset: { width: 0, height: 12 },
-        shadowOpacity: 0.35,
-        shadowRadius: 24,
         elevation: 10,
+        ...Platform.select({
+            web: {
+                boxShadow: `0px 12px 24px rgba(0, 0, 0, 0.35)`,
+            },
+            default: {
+                shadowColor: Colors.black,
+                shadowOffset: { width: 0, height: 12 },
+                shadowOpacity: 0.35,
+                shadowRadius: 24,
+            },
+        }),
     },
     fill: {
         ...StyleSheet.absoluteFillObject,
